@@ -8,20 +8,61 @@ namespace BryanList
 {
     public class BryanList
     {
-        public void Add();
+        private string _theRealList;
+        
+        public void Add(int value)
+        {
+            _theRealList += value;
+        }
 
-        public void Remove();
+        public void Remove(int index)
+        {
 
-        public void Count();
+        }
 
-        public void GetIndex(int index);
+        public void Count()
+        {
 
-        public void SetIndex(int value);
+        }
 
-        public void PrintOutList();
+        public void GetAtIndex(int index)
+        {
 
-        public void Copy(BryanList list);
+        }
 
-        public void Clear();
+        public void SetAtIndex(int index, int value)
+        {
+
+        }
+
+        public int GetIndexOf(int value)
+        {
+            return 0;
+        }
+
+        public string PrintOutList()
+        {
+            return _theRealList;
+        }
+
+        public void Copy(BryanList list)
+        {
+
+        }
+
+        public void Clear()
+        {
+
+        }
+
+        public int First()
+        {
+            return 0;
+        }
+
+        public int Last()
+        {
+            return 0;
+        }
     }
 }
