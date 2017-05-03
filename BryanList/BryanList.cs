@@ -20,14 +20,14 @@ namespace BryanList
 
         }
 
-        public void Count()
+        public int Count()
         {
-
+            return 0;
         }
 
-        public void GetAtIndex(int index)
+        public int GetAtIndex(int index)
         {
-
+            return 0;
         }
 
         public void SetAtIndex(int index, int value)
